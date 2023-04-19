@@ -6,7 +6,7 @@ import {AiFillGoogleCircle, AiFillAmazonCircle, AiFillYoutube,AiFillInstagram} f
 function Home() {
   return (
     <>
-        <div className='home'>
+        <div className='home' id="home">
             <main>
                 <h1>Zclimer</h1>
                 <p>We do it better</p>
@@ -24,7 +24,7 @@ function Home() {
             </div>
          </div>
 
-         <div className="home3">
+         <div className="home3" id="about">
             <div>
             <h1>Who we are</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -38,7 +38,7 @@ function Home() {
             </div>
          </div>
 
-         <div className="home4">
+         <div className="home4" id="brands">
             <div>
                 <h1>Brands</h1>
                 <article>
