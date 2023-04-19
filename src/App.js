@@ -3,7 +3,9 @@ import Header from "./components/Header";
 import './styles/App.scss';
 import './styles/header.scss'
 import './styles/home.scss'
+import './styles/footer.scss'
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Route path="/" element={<Home/>} />
 
       </Routes>
+      <Footer />
     </Router>
   );
 }
